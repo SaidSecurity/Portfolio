@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Add this in the <head> to load Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Nursaid Kamilli</div>
+        <ul class="nav-links">
+            <li><a href="#certification">Certification & Education</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#pentesting">Pentesting</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="light-bug" id="lightBug">
+            <i class="fas fa-bug"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile hamburger menu: only for small screens -->
+    <div class="mobile-menu-wrapper">
+        <div class="mobile-menu-icon" id="mobileMenuIcon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="mobile-nav-links" id="mobileNavLinks">
+            <li><a href="#certification">Certification & Education</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#pentesting">Pentesting</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        const mobileMenuIcon = document.getElementById('mobileMenuIcon');
+        const mobileNavLinks = document.getElementById('mobileNavLinks');
+
+        mobileMenuIcon.addEventListener('click', () => {
+            if (mobileNavLinks.style.display === 'flex') {
+                mobileNavLinks.style.display = 'none';
+            } else {
+                mobileNavLinks.style.display = 'flex';
+            }
+        });
+    </script>
+
+    <header class="hero">
+        <h1>
+            Welcome, <span class="typed-text"></span>
+            <span class="cursor">&nbsp;</span>
+        </h1>
+        <p>Ethical Hacker | Web App Penetration Tester | Security Enthusiast</p>
+    </header>
+
+
+    <section id="certification">
+        <header>
+            <h2>Certification & Education</h2>
+            <p>Certificates, Badges & Hacking Platform Profiles</p>
+        </header><br>
+
+        <strong>My TryHackMe</strong>
+        <div class="tryhackme-widget-wrapper">
+            <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2357557"
+                class="tryhackme-iframe" scrolling="no" frameborder="0"></iframe>
+        </div>
+
+
+        <div class="badges-container">
+            <h3>Badges Earned from Globally Recognized Organizations</h3>
+
+            <div class="badge-list">
+                <!-- Badge 01 -->
+                <div class="credly-badge" data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="52ed3381-32c5-4bb6-9f1d-7d11848ee7b3"
+                    data-share-badge-host="https://www.credly.com">
+                </div>
+
+                <!-- Badge 02 -->
+                <div class="credly-badge" data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="d5679acc-68aa-45ee-9913-a55faedb112e"
+                    data-share-badge-host="https://www.credly.com">
+                </div>
+            </div>
+        </div>
+        <!-- Professional Certifications List -->
+        <div class="cert-list">
+            <h3>Professional Certifications Earned</h3>
+            <ul>
+                <!-- Only show one certificate on main page -->
+                <li>
+                    <a href="../Certifications/Certs/Certificate-Career-Essentials.pdf" target="_blank">
+                        Career Essentials in Generative AI
+                    </a>
+                    <small>Issued by Microsoft and LinkedIn, covering machine learning principles and AI model
+                        development.</small>
+                </li>
+            </ul>
+            <p>
+                <a href="index.html/certs" class="view-all-link">
+                    View all my important certificates here &rarr;
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <p>Web Application Penetration Testing, Security Research, Bug Bounty Participation</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Portfolio Projects, Vulnerability Assessments, Python Security Scripts</p>
+    </section>
+
+    <section id="pentesting">
+        <h2>Pentesting</h2>
+        <p>Hands-on penetration tests, reverse shells, exploit development, network scanning</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            <a href="mailto:mail@saidsecurity.com">mail@saidsecurity.com</a>
+        </p>
+        <div class="social-icons">
+            <a href="https://github.com/SaidSecurity" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nursaid-kamilli" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://youtube.com/@SaidSecurity" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Nursaid Kamilli. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <!-- Embed script (only needed once, placed after all badges) -->
+    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <!-- BADGES ENDS -->
+
+</body>
+
+</html>
