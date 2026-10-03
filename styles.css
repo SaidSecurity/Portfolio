@@ -431,6 +431,309 @@ body.dark .cert-list small {
     box-shadow: 0 6px 20px rgba(0, 123, 255, 0.2);
 }
 
+/* Work Experience Section */
+
+.experience-card {
+
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 22px 28px;
+
+    background: #fff;
+
+    border-left: 5px solid #16a34a;
+    border-radius: 12px;
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .08);
+
+    transition: .25s;
+}
+
+.experience-card:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 12px 28px rgba(0, 0, 0, .15);
+}
+
+.experience-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    margin-bottom: 12px;
+}
+
+.experience-header h3 {
+
+    margin: 0;
+
+    font-size: 1.35rem;
+
+    color: #111827;
+}
+
+.experience-header a {
+
+    color: #2563eb;
+
+    text-decoration: none;
+
+    font-weight: 500;
+}
+
+.experience-header a:hover {
+
+    text-decoration: underline;
+}
+
+.experience-date {
+
+    font-size: .85rem;
+
+    color: #6b7280;
+
+    white-space: nowrap;
+}
+
+.experience-summary {
+
+    color: #555;
+
+    line-height: 1.6;
+
+    margin-bottom: 18px;
+}
+
+.experience-card h4 {
+
+    margin: 18px 0 10px;
+
+    font-size: 1rem;
+
+    color: #111827;
+}
+
+.experience-card ul {
+
+    margin: 0;
+
+    padding-left: 20px;
+}
+
+.experience-card li {
+
+    margin-bottom: 8px;
+
+    line-height: 1.5;
+    color: #555;
+}
+
+.skill-tags {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-top: 10px;
+}
+
+.skill-tags span {
+
+    background: #eef4ff;
+
+    color: #2563eb;
+
+    padding: 6px 12px;
+
+    border-radius: 20px;
+
+    font-size: .85rem;
+
+    font-weight: 500;
+}
+
+
+.volunteer-card {
+
+    max-width: 600px;
+
+    margin: 10px auto;
+
+    padding: 18px 22px;
+
+
+    background: #fff;
+
+    border-left: 5px solid #16a34a;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+
+.volunteer-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+.volunteer-header h4 {
+
+    margin: 0;
+
+    font-size: 1.15rem;
+
+    color: #111;
+
+}
+
+
+.volunteer-header span {
+
+    background: #dcfce7;
+
+    color: #15803d;
+
+    padding: 5px 12px;
+
+    border-radius: 20px;
+
+    font-size: .85rem;
+
+    font-weight: 600;
+
+}
+
+
+.volunteer-card p {
+
+    margin: 0;
+
+    color: #555;
+
+    font-size: .95rem;
+
+    line-height: 1.5;
+
+}
+
+
+.volunteer-card a {
+
+    color: #2563eb;
+
+    text-decoration: none;
+
+}
+
+
+.volunteer-card a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+.vol-image {
+
+    width: 80px;
+
+    height: auto;
+
+    border-radius: 8px;
+
+    margin: auto;
+
+}
+
+.credly-badge-like {
+    width: 150px;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 8px;
+    background: transparent;
+    display: inline-block;
+    border: 1px solid rgba(183, 183, 183, 0.3);
+}
+
+.credly-badge-like a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.custom-badge {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* Support Section */
+.support-card {
+    max-width: 420px;
+    margin: 25px auto;
+    padding: 22px;
+    text-align: center;
+
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 14px;
+
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .08);
+}
+
+.support-card h5 {
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.support-card p {
+    color: #666;
+    font-size: .95rem;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+.bmc-btn {
+    display: inline-block;
+    padding: 10px 22px;
+
+    background: #FFDD00;
+    color: #000;
+    font-weight: 600;
+
+    text-decoration: none;
+    border-radius: 30px;
+
+    transition: .25s ease;
+}
+
+.bmc-btn:hover {
+    background: #ffd000;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .15);
+}
+
 /* Contact Section */
 #contact {
     text-align: center;
